@@ -1,0 +1,496 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px; 
+    display: flex; 
+}
+
+.nav-menu {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    height: 50px; 
+    align-items: center; 
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+    text-decoration: none; 
+    color: #333;
+    font-weight: bold; 
+}
+
+.right {
+    margin-left: auto; 
+    display: flex;
+    gap: 2rem; 
+    align-items: center; 
+    margin-left: 52rem;
+}
+
+/* Second Section */
+
+.section {
+    background-image: url("./Assets/top-section_2180x750.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-title {
+    color: white;
+    text-align: center;
+}
+
+.video-description {
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
+/* <!-- Third Section --> */
+
+
+
+
+.help {
+    background-color: white;
+    width: 100%; 
+    height: 100vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row; 
+    
+}
+
+.help-title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.help-description {
+    display: flex;
+    text-align: center;
+    color: grey;
+    justify-content: center ;
+}
+
+.item {
+    width: 20rem;
+    height: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat; 
+
+}
+
+.item:nth-child(1) {
+    background-image: url(/Assets/main-img_1078x816.png);
+}
+
+.item:nth-child(2) {
+    background-image: url(./Assets/video-emma_280x187.png);
+}
+
+.item:nth-child(3) {
+    background-image: url(./Assets/video-gatesjobs_560x374.png);
+}
+
+.item-description {
+    display: flex;
+    margin-top: 15rem;
+    text-align: left;
+}
+
+.item-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: -1rem;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+    background-color: #D3D3D3;
+    justify-content: start;
+    height: 3rem;
+    width: 20rem;
+    margin-top: -2rem;
+
+    border-radius: 4.5px;
+}
+
+.item-actions p {
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* Fourth Section */
+
+
+
+.feature-heading {
+    text-align: center;
+}
+
+.feature-section {
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row; 
+    padding: 20px; 
+}
+
+.feature-column {
+    width: 30%; 
+    margin: 0 10px; 
+    justify-content: center;
+}
+
+
+.feature-description {
+    padding: 20px;
+}
+
+.feature-title {
+    margin-top: 0;
+    text-align: center;
+}
+
+.feature-description p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.feature-item-left, .feature-item-middle, .feature-item-right {
+    width: 20rem;
+    height: 20rem;
+    margin-top: -8%; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.feature-item-left {
+    background-image: url('./Assets/index-sharing_300x120.png');
+}
+
+.feature-item-middle {
+    background-image: url('./Assets/index-embeds_300x120.png');
+}
+
+.feature-item-right {
+    background-image: url('./Assets/index-tagging_300x120.png');
+}
+
+
+
+/* 
+Fifth Section */
+
+
+
+
+
+    .benefit-help {
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.benefit-heading{
+    text-align: center;
+}
+
+.benefit-text {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.benefit-feature {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    max-width: 40rem;
+    margin-bottom: 2rem;
+}
+
+.feature-img {
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 5rem; 
+    height: 5rem;
+}
+
+.feature-info {
+    text-align: left;
+}
+
+.img-personal {
+    background-image: url(./Assets/index-benefit-personal_166x166.png);
+}
+
+.img-engagement {
+    background-image: url(./Assets/index-benefit-engagement_166x166.png);
+}
+
+.img-analytics {
+    background-image: url(./Assets/index-benefit-analytics_166x166.png);
+}
+
+
+
+
+/* <!-- Sixth Section --> */
+
+
+
+
+.C-help {
+    background-color: white;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.C-text {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.collection-images {
+    display: flex;
+    justify-content: center;
+}
+
+.collection-m,
+.collection-s {
+    height: 16rem;
+    width: 35rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.collection-m {
+    margin-right: 2rem;
+    background-image: url(./Assets/collection-startup_460x184.png);
+}
+
+.collection-s {
+    margin-left: 2rem;
+    background-image: url(./Assets/collection-ml_922x368.png);
+}
+
+.C-textdown {
+    text-align: center;
+
+    color: grey;
+    margin-top: auto;
+}
+
+
+
+/* Seven-Section */
+
+
+
+
+.who {
+    background-color: #FFF5EE;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    text-align: center;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem; 
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem; 
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.partner {
+    height: 4rem;
+    width: 9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1.5rem; 
+}
+
+.who h1 {
+    margin: 0; /
+}
+
+.who p {
+    margin: 0; 
+    margin-top: 2rem; 
+    color: #666;
+}
+
+
+/* Eight SEction */
+
+
+
+.tagging-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 60vh; 
+}
+
+.tagging-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#tag-form {
+    position: relative;
+}
+
+#video-url {
+    margin-bottom: 2rem;
+    height: 3rem;
+    width: 20rem;
+}
+
+.tag-button {
+    background-color: blue;
+    color: #ffffff;
+    height: 3rem;
+    width: 10rem; 
+}
+
+.tagging-help {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Nigth Section */
+
+
+.support-info {
+    background-color: #FFF5EE;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.support-info h1 {
+    margin-top: 2rem; 
+    text-align: center; 
+}
+
+.platforms {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.platform {
+    height: 4rem;
+    width: 9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.platform:nth-child(1) {
+    background-image: url(./Assets/platform-youtube_115x50.png); 
+}
+
+.platform:nth-child(2) {
+    background-image: url(./Assets/platform-vimeo_115x50.png); 
+}
+
+.platform:nth-child(3) {
+    background-image: url(./Assets/platform-dailymotion_115x50.png); 
+}
+
+.platform:nth-child(4) {
+    background-image: url(./Assets/platform-html5_230x100.png); 
+}
+
+/* Tenth Section */
+
+
+.footer {
+    text-align: center;
+}
+
+.grey {
+    background-color: #3B3B3B;
+    padding: 17px;
+    color: #FFFFFF; 
+}
+
+.black {
+    background-color: black;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.footer-content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #666666; 
+}
+
+.footer-content a {
+    color: #FFFFFF; 
+}
